@@ -1,0 +1,25 @@
+{
+  "name": "kiwi-witc-entry-task",
+  "version": "1.0.0",
+  "description": "Entry task for the Kiwi.com Weekend in the Cloud",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koubas/kiwi-witc-entry-task.git"
+  },
+  "author": "Jakub Husák <husak.j@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koubas/kiwi-witc-entry-task/issues"
+  },
+  "homepage": "https://github.com/koubas/kiwi-witc-entry-task#readme",
+  "dependencies": {
+    "figlet": "^1.2.0"
+  }
+}

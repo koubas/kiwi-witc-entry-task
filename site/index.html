@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript" src="./figlet.js"></script>
+</head>
+<body>
+
+  <pre id="text" style="font-size: 4px"></pre>
+  <script>
+    figlet('I want to attend the\nKiwi.com Weekendin the Cloud', 'Standard', function(err, text) {
+      if (err) {
+        console.log('something went wrong...');
+          console.dir(err);
+          return;
+      }
+      document.getElementById('text').innerHTML = text;
+    });
+</script>
+</body>
+
+</html>
